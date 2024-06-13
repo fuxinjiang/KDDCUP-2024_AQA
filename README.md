@@ -3,7 +3,7 @@ python3.7
 pip install -r requirements.txt  
 
 # 模型下载
-1. 首先在[huggingface]{https://huggingface.co/}下载nvidia/NV-Embed-v1存到model文件夹  
+1. 首先在[huggingface]{https://huggingface.co/} 下载nvidia/NV-Embed-v1存到model文件夹  
 
 # 数据下载
 1. 将下载的数据放到src文件夹  
