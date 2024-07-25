@@ -1,4 +1,4 @@
-KDD-CUP AQA -- fifth-place 
+# KDD-CUP AQA -- fifth-place 
 ## Data Downlod  
 mkdir data  
 cd data  
@@ -12,7 +12,7 @@ cd src
 python3 data_preprocessing.py  
 
 ## Training Data & Negative Samples
-cd src 
+cd src  
 python3 negative_samples.py  
 
 ## Fine-tuning
