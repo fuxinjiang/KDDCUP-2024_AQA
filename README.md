@@ -15,4 +15,4 @@ pip install -r requirements.txt
 1. python3 get_emb.py  
 
 # 生成最后结果
-1. python3 get_result.py  
+1. python3 get_result.py  111
