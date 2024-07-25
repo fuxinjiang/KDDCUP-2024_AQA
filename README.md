@@ -1,18 +1,30 @@
-# 环境搭建
-python3.7  
+## Data Downlod  
+mkdir data  
+cd data  
+将AQA数据集放置在data/AQA下  
+## Environment
+python3.10  
 pip install -r requirements.txt  
 
-# 模型下载
-1. 首先在[huggingface]{https://huggingface.co/} 下载nvidia/NV-Embed-v1存到model文件夹  
+## Data preprocessing  
+cd src  
+python3 data_preprocessing.py  
 
-# 数据下载
-1. 将下载的数据放到src文件夹  
+## Training Data & Negative Samples
+cd src 
+python3 negative_samples.py  
 
-# 构造retriever
-1. python3 build_retriever.py  
+## Fine-tuning
+bash encoder_training.sh
 
-# 生成embedding
-1. python3 get_emb.py  
+## Build Retriever
+cd src  
+python3 build_retriever.py  
 
-# 生成最后结果
-1. python3 get_result.py  111
+## get related_doc
+cd src  
+python3 get_related_doc.py  
+
+## rrf
+cd src  
+python3 rrf.py    

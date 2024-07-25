@@ -1,0 +1,35 @@
+# Python
+**/__pycache__
+*.pyc
+*.egg-info
+dist
+.venv
+
+# Log
+*.log
+*.log.*
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+checkpoints_flant5_3b
+
+# Data
+*.pkl
+
+# Build
+build
+
+# notebook
+**/.ipynb_checkpoints/
+
+# large data for test
+/model
+/data
+/output
+/result
