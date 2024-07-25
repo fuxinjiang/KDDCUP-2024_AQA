@@ -1,7 +1,8 @@
+KDD-CUP AQA -- fifth-place 
 ## Data Downlod  
 mkdir data  
 cd data  
-将AQA数据集放置在data/AQA下  
+将AQA数据集放置在data/AQA下，数据集地址[https://www.biendata.xyz/competition/aqa_kdd_2024/]
 ## Environment
 python3.10  
 pip install -r requirements.txt  
